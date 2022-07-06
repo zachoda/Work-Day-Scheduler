@@ -25,6 +25,9 @@ $(".saveBtn").on("click", function () {
     localStorage.setItem("hour", taskHour);
     localStorage.setItem("description", taskDescription);
   }
+  JSON.stringify(taskHour);
+  console.log(taskHour);
 });
 
 //load function
+
